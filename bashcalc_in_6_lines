@@ -1,0 +1,6 @@
+num=0
+x=`echo $*`
+
+for i in ${x}; do
+    echo $(($i**2))
+done
